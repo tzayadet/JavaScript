@@ -6,8 +6,8 @@ Colección de interfaces web experimentales, generadores de audio en tiempo real
 
 ## Aplicación principal
 
-- **Warrior's Blood Anthem** — `index.html`: interfaz audiovisual con animaciones, controles de ritmo y generación de audio mediante Web Audio API.
-- **Warrior's Blood Anthem (standalone copy)** — `Warriors-Blood-Anthem.html`: copia independiente de la experiencia principal.
+- **Warrior's Blood Anthem** — [`index.html`](index.html): interfaz audiovisual principal con animaciones, controles de ritmo y generación de audio mediante Web Audio API.
+- **Warrior's Blood Anthem · Standalone** — [`Warriors-Blood-Anthem.html`](Warriors-Blood-Anthem.html): versión independiente para abrir o compartir sin depender del nombre de entrada del sitio.
 
 ## Web Audio & rhythm experiments
 
