@@ -34,7 +34,7 @@ Son prototipos independientes. Los nombres describen la variante visual o sonora
 
 ## JavaScript automation
 
-- `solicitudusuarioespejo.js`: automatización de Google Apps Script para localizar solicitudes de acceso en Gmail y preparar borradores de respuesta. La configuración del archivo contiene valores de ejemplo; requiere adaptar permisos y datos antes de utilizarlo. El script está diseñado para crear borradores, no para enviar mensajes.
+- `Access-Request-Draft-Generator.gs`: automatización de Google Apps Script para localizar solicitudes de acceso en Gmail y preparar borradores de respuesta. La configuración del archivo contiene valores de ejemplo; requiere adaptar permisos y datos antes de utilizarlo. El script está diseñado para crear borradores, no para enviar mensajes.
 
 ## Ejecución local
 
@@ -58,7 +58,7 @@ Visita `http://localhost:8000` y abre el experimento que quieras probar.
 ## Notas
 
 - Los experimentos de audio pueden requerir una interacción explícita para iniciar el sonido debido a las políticas de autoplay del navegador.
-- Los documentos HTML están guardados con extensión `.html`; el único archivo `.js` independiente contiene la automatización de Google Apps Script.
+- Los documentos HTML están guardados con extensión `.html`; el único archivo `.gs` contiene la automatización de Google Apps Script.
 - Los experimentos son prototipos de interfaz, no aplicaciones de producción.
 
 ## Licencia
