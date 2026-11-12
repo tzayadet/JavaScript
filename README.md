@@ -1,24 +1,50 @@
-# JavaScript · Interactive Audio & Visual Experiments
+# Web Audio & Interactive Experiments
 
-Colección de experimentos de interfaz, animación y generación de sonido en el navegador.
+Colección de interfaces web experimentales, generadores de audio en tiempo real y pequeñas automatizaciones JavaScript. El repositorio conserva distintas iteraciones visuales y prototipos independientes.
 
-## Proyecto principal
+## Aplicación principal
 
-- **Warrior's Blood Anthem** (`index.html`): experiencia visual de temática marcial con animaciones, interfaz de ritmo y generación de audio desde el navegador.
+- **Warrior's Blood Anthem** — `index.html`: interfaz audiovisual con animaciones, controles de ritmo y generación de audio mediante Web Audio API.
+- **Warrior's Blood Anthem (standalone copy)** — `Warriors-Blood-Anthem.html`: copia independiente de la experiencia principal.
 
-## Otros experimentos
+## Web Audio & rhythm experiments
 
-El repositorio conserva distintas iteraciones y prototipos independientes. Algunos archivos con extensión `.js` contienen documentos HTML completos y pueden abrirse directamente en un navegador; se mantendrán identificados como experimentos hasta normalizar su estructura.
+| Archivo | Descripción |
+|---|---|
+| [HackerBeat.html](HackerBeat.html) | Interfaz de audio con ritmo y estética terminal. |
+| [Primal-Run-Anthem.html](Primal-Run-Anthem.html) | Anthem de carrera a 180 BPM. |
+| [Samurai-Run-Anthem.html](Samurai-Run-Anthem.html) | Variante temática japonesa con controles de reproducción. |
+| [Neural-Run-Anthem.html](Neural-Run-Anthem.html) | Motor de cadencia y síntesis audiovisual. |
+| [Synthax-Engine.html](Synthax-Engine.html) | Experimento de audio en tiempo real con visualización y telemetría de interfaz. |
+| [Extended-Hymn.html](Extended-Hymn.html) | Generador de secuencia musical mediante osciladores. |
+| [Epic-Hymn.html](Epic-Hymn.html) | Experimento de acordes y síntesis con Web Audio API. |
 
-## Ejecución
+## Interface & sound variants
 
-Abre `index.html` en un navegador moderno. Para una ejecución local con servidor:
+- [Clan Operations Audio](Clan-Operations-Audio.html)
+- [Extraction Point Audio](Extraction-Point-Audio.html)
+- [Field Operations Audio](Field-Operations-Audio.html)
+- [Hostile Zone Audio](Hostile-Zone-Audio.html)
+- [Limits Cadence Audio](Limits-Cadence-Audio.html)
+- [Movement Cadence Audio](Movement-Cadence-Audio.html)
+- [Rain Cadence Audio](Rain-Cadence-Audio.html)
+- [Dark Zone Audio](Dark-Zone-Audio.html)
+
+Son prototipos independientes. Los nombres describen la variante visual o sonora, no una conexión con sistemas operativos reales.
+
+## JavaScript automation
+
+- `solicitudusuarioespejo.js`: automatización de Google Apps Script para localizar solicitudes de acceso en Gmail y preparar borradores de respuesta. La configuración del archivo contiene valores de ejemplo; requiere adaptar permisos y datos antes de utilizarlo. El script está diseñado para crear borradores, no para enviar mensajes.
+
+## Ejecución local
+
+Abre cualquier archivo `.html` directamente en un navegador moderno. Para servir el directorio localmente:
 
 ```bash
 python -m http.server 8000
 ```
 
-Después visita `http://localhost:8000`.
+Visita `http://localhost:8000` y abre el experimento que quieras probar.
 
 ## Tecnologías
 
@@ -26,8 +52,15 @@ Después visita `http://localhost:8000`.
 - CSS3
 - JavaScript
 - Web Audio API
-- Animaciones CSS y APIs del navegador
+- Canvas y APIs del navegador
+- Google Apps Script
 
 ## Notas
 
-El audio puede requerir una interacción explícita del usuario debido a las políticas de reproducción automática del navegador.
+- Los experimentos de audio pueden requerir una interacción explícita para iniciar el sonido debido a las políticas de autoplay del navegador.
+- Los documentos HTML están guardados con extensión `.html`; el único archivo `.js` independiente contiene la automatización de Google Apps Script.
+- Los experimentos son prototipos de interfaz, no aplicaciones de producción.
+
+## Licencia
+
+Consulta [LICENSE](LICENSE).
