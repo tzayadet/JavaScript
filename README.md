@@ -1,6 +1,6 @@
 # Web Audio & Interactive Experiments
 
-**Live demo:** [Warrior's Blood Anthem](https://tzayadet.github.io/Javascript/) · `index.html`
+**Live demo:** [Warrior's Blood Anthem](https://tzayadet.github.io/JavaScript/) · `index.html`
 
 Colección de interfaces web experimentales, generadores de audio en tiempo real y pequeñas automatizaciones JavaScript. El repositorio conserva distintas iteraciones visuales y prototipos independientes.
 
